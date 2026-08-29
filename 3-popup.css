@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; font: 14px/1.4 system-ui, sans-serif; }
+body { margin: 0; min-width: 420px; max-width: 560px; }
+main { padding: 16px; } h1 { font-size: 18px; margin: 0 0 4px; } header p { margin: 0 0 14px; color: #777; }
+.toolbar { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; } button, input, select { font: inherit; padding: 8px; }
+.selection { display: flex; justify-content: space-between; margin: 12px 0 6px; } ul { list-style: none; padding: 0; margin: 0; max-height: 360px; overflow: auto; border-block: 1px solid #8885; }
+li { display: grid; grid-template-columns: auto 64px 1fr; gap: 8px; align-items: center; padding: 8px 2px; border-bottom: 1px solid #8883; }
+.kind { text-transform: uppercase; font-size: 10px; font-weight: 700; color: #777; } .url { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } #download { width: 100%; margin-top: 12px; font-weight: 700; }

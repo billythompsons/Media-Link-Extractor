@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Media Link Extractor",
+  "version": "0.1.0",
+  "description": "Collect media assets from any page and download them together as a ZIP.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": { "default_popup": "popup.html", "default_title": "Media Link Extractor" }
+}

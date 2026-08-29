@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Media Link Extractor</title><link rel="stylesheet" href="popup.css"></head>
+<body><main><header><h1>Media Link Extractor</h1><p id="status">Scan the current page, choose the files you want, then download one ZIP.</p></header>
+<div class="toolbar"><button id="scan">Scan page</button><input id="search" type="search" placeholder="Filter by URL or type" aria-label="Filter results"><select id="type" aria-label="Filter by media type"><option value="all">All media</option><option value="image">Images</option><option value="video">Video</option><option value="audio">Audio</option><option value="stream">Streams</option><option value="other">Other</option></select></div>
+<div class="selection"><label><input id="select-all" type="checkbox" checked> Select all</label><span id="count">0 items</span></div><ul id="results" aria-live="polite"></ul><button id="download" disabled>Download selected as ZIP</button></main>
+<script src="jszip.min.js"></script><script src="popup.js"></script></body></html>
